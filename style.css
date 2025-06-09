@@ -1,0 +1,118 @@
+html {
+  font-size: 16px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background: #f8c3ce;
+}
+
+a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #0dcaf0;
+  text-decoration: underline;
+}
+
+/* 텍스트 효과 */
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+h2 {
+  font-family: 'Montserrat', 'Pretendard', sans-serif;
+  letter-spacing: 1px;
+}
+
+.cards_wrap__card h2 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.cards_wrap__card h2 span {
+  font-family: 'Pretendard', sans-serif;
+  margin-top: 1rem;
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+/* 나머지 기존 스타일 유지 */
+/* 첫 장면 슬라이드 사진들 */
+/* .cards_wrap__card-stick 안에 background-image: url('배경사진 이미지') */
+.cards_wrap__card-stick {
+  top: 2rem;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  background-position: center;
+  background-image: url('img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.cards_wrap__card-stick.color2 {
+  background-image: url('img/background.png');
+}
+
+.cards_wrap__card-stick.color3 {
+  background-image: url('img/background.png');
+}
+
+.cards_wrap__card-stick.color4 {
+  background-image: url('img/background.png');
+}
+
+.cards_wrap__card-stick.last {
+  background-image: url('img/background.png');
+}
+
+.cards_wrap__card:nth-child(1) {
+  height: 450vh;
+}
+
+.cards_wrap__card:nth-child(2) {
+  margin-top: -360vh;
+  height: 360vh;
+}
+
+.cards_wrap__card:nth-child(3) {
+  margin-top: -270vh;
+  height: 270vh;
+}
+
+.cards_wrap__card:nth-child(4) {
+  margin-top: -180vh;
+  height: 180vh;
+}
+
+.cards_wrap__card:nth-child(5) {
+  margin-top: -90vh;
+  height: 90vh;
+}
+
+#right{
+  float: right;
+}
+
+#left{
+  float: left;
+}
